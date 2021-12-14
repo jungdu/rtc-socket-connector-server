@@ -1,6 +1,6 @@
 # rtc-socket-connector-server
 
-rtc-socket-connector-server is library for WebRTC connection.
+rtc-socket-connector-server is library for WebRTC connection.  
 This library used with [**rtc-socket-connector-client**]([r](https://github.com/jungdu/rtc-socket-connector-server))  
 It is easy to use WebRTC with **rtc-socket-connector-server** and [**rtc-socket-connector-client**](https://github.com/jungdu/rtc-socket-connector-server)
 
@@ -30,5 +30,5 @@ addRTCConnectionHandler(socketServer, {cors: { origin: "<YOUR DOMAIN>"}});
 ```
 
 ### 3. Start the server
-Your server is ready to get socket messages to use WebRTC from client.
-Client will send socket messages to connect to another client.
+Your server is ready to get socket messages from clients.  
+Clients will send socket messages to connect to another clients.  
