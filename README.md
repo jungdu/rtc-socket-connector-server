@@ -5,7 +5,7 @@ This library used with [**rtc-socket-connector-client**]([r](https://github.com/
 It is easy to use WebRTC with **rtc-socket-connector-server** and [**rtc-socket-connector-client**](https://github.com/jungdu/rtc-socket-connector-server)
 
 
-## How to use
+# How to use
 
 ### 1. Create socket server  
 To use rtc-socket-connector-server, you need socket server.
@@ -26,9 +26,18 @@ Use **addRTCConnectionHandlers** to handle socket messages form client.
 ```javascript
 const { addRTCConnectionHandlers } = require("rtc-socket-connector-server")
 
-addRTCConnectionHandler(socketServer, {cors: { origin: "<YOUR DOMAIN>"}});
+addRTCConnectionHandler(socketServer});
 ```
 
 ### 3. Start the server
 Your server is ready to get socket messages from clients.  
 Clients will send socket messages to connect to another clients.  
+
+
+# API
+
+### addRTCConnectionHandler(server, option)
+**arguments**
+- server: socket server created by using socket.io
+- option
+  - debug(```boolean```): Set true to log messages for initiating peer connections and ICE candidates.
