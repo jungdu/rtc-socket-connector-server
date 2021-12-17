@@ -1,7 +1,7 @@
 # rtc-socket-connector-server
 
 rtc-socket-connector-server is library for WebRTC connection.  
-This library used with [**rtc-socket-connector-client**]([r](https://github.com/jungdu/rtc-socket-connector-server))  
+This library used with [**rtc-socket-connector-client**]([r](https://github.com/jungdu/rtc-socket-connector-client))  
 It is easy to use WebRTC with **rtc-socket-connector-server** and [**rtc-socket-connector-client**](https://github.com/jungdu/rtc-socket-connector-server)
 
 
