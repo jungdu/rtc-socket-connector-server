@@ -30,14 +30,15 @@ addRTCConnectionHandler(socketServer});
 ```
 
 ### 3. Start the server
-Your server is ready to get socket messages from clients.  
-Clients will send socket messages to connect to another clients.  
+Run script file to run express server.  
+A client will send socket messages to the express server.
+The express server will send messages from a client to target client.
 
 
 # API
 
 ### addRTCConnectionHandler(server, option)
-**arguments**
-- server: socket server created by using socket.io
+**Arguments**
+- server: Socket server created by using socket.io
 - option
-  - debug(```boolean```): Set true to log messages for initiating peer connections and ICE candidates.
+  - debug```<boolean>```: Set ```true``` to log messages for initiating peer connections and ICE candidates.
